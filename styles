@@ -26,3 +26,15 @@ a:link { color: black; }
 a:visited { color: blue; }
 
 a:hover { background-color: white; color: orange; }
+
+.maintxt {
+  position: relative;
+}
+.maintxt > img,
+.overlay-text {
+  position: absolute;
+}
+
+.img {
+  width: 255px;
+}
