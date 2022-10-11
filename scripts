@@ -1,0 +1,7 @@
+$(document).ready(function () {
+  $("#greetingOutput").text("");
+
+  $("#sendName").click(function () {
+    $("#greetingOutput").text("Hello "+ $("#fname").val());
+  });
+  });
